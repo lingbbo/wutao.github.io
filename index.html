@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-新建一篇-blog" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/02/17/%E6%96%B0%E5%BB%BA%E4%B8%80%E7%AF%87-blog/" class="article-date">
+  <time class="dt-published" datetime="2021-02-17T06:10:39.000Z" itemprop="datePublished">2021-02-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2021/02/17/%E6%96%B0%E5%BB%BA%E4%B8%80%E7%AF%87-blog/">新建一篇 blog/</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/02/17/%E6%96%B0%E5%BB%BA%E4%B8%80%E7%AF%87-blog/" data-id="ckl91h1nr00033svadzn98wd0" data-title="新建一篇 blog/" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-类的初始化" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/02/17/%E7%B1%BB%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96/" class="article-date">
+  <time class="dt-published" datetime="2021-02-17T06:03:02.246Z" itemprop="datePublished">2021-02-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="类加载"><a href="#类加载" class="headerlink" title="类加载"></a>类加载</h1><p>类加载有(加载、验证、准备、解析、初始化、使用和卸载这7个阶段。其中，验证、准备和解析这三个部分统称为连接（linking）)</p>
+<p><img src="/2021/02/17/%E7%B1%BB%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96/note\image\20140317163048593" alt="img"></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SingleTon</span> </span>&#123;</span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">static</span> SingleTon singleTon = <span class="keyword">new</span> SingleTon();</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> count1;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> count2 = <span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line">	<span class="function"><span class="keyword">private</span> <span class="title">SingleTon</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		count1++;</span><br><span class="line">		count2++;</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> SingleTon <span class="title">getInstance</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> singleTon;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		SingleTon singleTon = SingleTon.getInstance();</span><br><span class="line">		System.out.println(<span class="string">&quot;count1=&quot;</span> + singleTon.count1);</span><br><span class="line">		System.out.println(<span class="string">&quot;count2=&quot;</span> + singleTon.count2);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="以上面的代码来分析"><a href="#以上面的代码来分析" class="headerlink" title="以上面的代码来分析"></a>以上面的代码来分析</h2><p>加载阶段</p>
+<p>准备阶段：在准备阶段会为静态变量分配内存并初始化一个<strong>默认值</strong>（不是我们手动赋的初值），所以此时：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">singleTon=<span class="keyword">null</span>;</span><br><span class="line">count1=<span class="number">0</span>;</span><br><span class="line">count2=<span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+<p>初始化阶段:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> SingleTon singleTon = <span class="keyword">new</span> SingleTon();</span><br></pre></td></tr></table></figure>
+<p>​           实例化persion,执行new 的构造方法</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">count1++;<span class="comment">//count1=1;</span></span><br><span class="line">count2++;<span class="comment">//count2=1;</span></span><br></pre></td></tr></table></figure>
+<p>​      ，执行完后，执行下一行，初始化值（现在说初始化值已经不是很准确了）。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> count1;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> count2 = <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+<p>可以看到 count1并为赋初值，所以 count1 还是 1；</p>
+<p>而count2=0; 结果改变。在构造方法中输出count2，可以看的更详细。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span></span><br><span class="line">count1=<span class="number">1</span></span><br><span class="line">count2=<span class="number">0</span></span><br></pre></td></tr></table></figure>
+<h2 id><a href="#" class="headerlink" title></a></h2><h2 id="类加载详解："><a href="#类加载详解：" class="headerlink" title="类加载详解："></a>类加载详解：</h2><h3 id="加载阶段："><a href="#加载阶段：" class="headerlink" title="加载阶段："></a>加载阶段：</h3><p>在此阶段虚拟机完成三件事情：</p>
+<p>​       1.通过一个类的全限定名来获取此类的二进制字节流</p>
+<p>​       2.将这个字节流所代表的静态存储结构转化为方法区的运行时数据结构。</p>
+<p>​       <strong>3.在java内存中生成一个代表这个类的java.lang.Class对象，作为方法区中这个类的各种数据的访问入口。</strong></p>
+<p>注意：这三点要求都不具体，不要钻进面试官的陷阱。</p>
+<p>例：“通过一个类的全限定名来获取此类的二进制字节流” jvm开发团队并没有指明二进制字节流要从一个文件中获取，就是没有指明要从哪里获取。在这个基础上 有许多的应用</p>
+<p>​          从zip 文件中获取： jar,wai,ear等。</p>
+<p>​          网络中获取： applet</p>
+<p>​          *<em>运行时计算生成：主要应用就是 动态代理技术：，java.lan.reflect.Proxy中。就用了ProxyGenerator.generatorProxyClass 来为特定的接口生成形式为“</em>Proxy”的代理类的二进制字节流。**</p>
+<p>​     <strong><em>数组类的实现又是另一种情况了，后续补充</em></strong></p>
+<p>​       加载阶段既可以使用系统提供的类加载器在完成，也可以由用户自定义的类加载器来完成。加载阶段与连接阶段的部分内容(如一部分字节码文件格式验证动作)是交叉进行的，加载阶段尚未完成，连接阶段可能已经开始。</p>
+<h2 id="验证阶段"><a href="#验证阶段" class="headerlink" title="验证阶段"></a>验证阶段</h2><p>​           验证是连接阶段的第一步，这一阶段的目的是为了确保Class文件的字节流中包含的信息符合当前虚拟机的要求，并且不会危害虚拟机自身的安全。</p>
+<p>​       Java语言本身是相对安全的语言，使用Java编码是无法做到如访问数组边界以外的数据、将一个对象转型为它并未实现的类型等，如果这样做了，编译器将拒绝编译。但是，Class文件并不一定是由Java源码编译而来，可以使用任何途径，包括用十六进制编辑器(如UltraEdit)直接编写。如果直接编写了有害的“代码”(字节流)，而虚拟机在加载该Class时不进行检查的话，就有可能危害到虚拟机或程序的安全。</p>
+<p>​      不同的虚拟机，对类验证的实现可能有所不同，但大致都会完成下面四个阶段的验证：文件格式验证、元数据验证、字节码验证和符号引用验证。</p>
+<p>​       1、文件格式验证，是要验证字节流是否符合Class文件格式的规范，并且能被当前版本的虚拟机处理。如验证魔数是否0xCAFEBABE；主、次版本号是否正在当前虚拟机处理范围之内；常量池的常量中是否有不被支持的常量类型……该验证阶段的主要目的是保证输入的字节流能正确地解析并存储于方法区中，经过这个阶段的验证后，字节流才会进入内存的方法区中存储，所以后面的三个验证阶段都是基于方法区的存储结构进行的。</p>
+<p>​       2、元数据验证，是对字节码描述的信息进行语义分析，以保证其描述的信息符合Java语言规范的要求。可能包括的验证如：这个类是否有父类；这个类的父类是否继承了不允许被继承的类；如果这个类不是抽象类，是否实现了其父类或接口中要求实现的所有方法……</p>
+<p>​       3、字节码验证，主要工作是进行数据流和控制流分析，保证被校验类的方法在运行时不会做出危害虚拟机安全的行为。如果一个类方法体的字节码没有通过字节码验证，那肯定是有问题的；但如果一个方法体通过了字节码验证，也不能说明其一定就是安全的。</p>
+<p>​       4、符号引用验证，发生在虚拟机将符号引用转化为直接引用的时候，这个转化动作将在“解析阶段”中发生。验证符号引用中通过字符串描述的权限定名是否能找到对应的类；在指定类中是否存在符合方法字段的描述符及简单名称所描述的方法和字段；符号引用中的类、字段和方法的访问性(private、protected、public、default)是否可被当前类访问</p>
+<p>验证阶段对于虚拟机的类加载机制来说，不一定是必要的阶段。如果所运行的全部代码确认是安全的，可以使用-Xverify：none参数来关闭大部分的类验证措施，以缩短虚拟机类加载时间。</p>
+<p>​        如果类未初始化会对类进行初始化。</p>
+<ol>
+<li>创建类的实例</li>
+<li>访问类的静态变量(除常量【被final修辞的静态变量】</li>
+<li>访问类的静态方法</li>
+<li>反射如(Class.forName(“my.xyz.Test”))</li>
+<li>当初始化一个类时，发现其父类还未初始化，则先出发父类的初始化</li>
+<li>虚拟机启动时，定义了main()方法的那个类先初始化</li>
+</ol>
+<p>以上情况称为称对一个类进行“主动引用”，除此种情况之外，均不会触发类的初始化，称为“被动引用”接口的加载过程与类的加载过程稍有不同。接口中不能使用static{}块。当一个接口在初始化时，并不要求其父接口全部都完成了初始化，只有真正在使用到父接口时（例如引用接口中定义的常量）才会初始化。</p>
+<ol>
+<li>子类调用父类的静态变量，子类不会被初始化。只有父类被初始化。。对于静态字段，只有直接定义这个字段的类才会被初始化.</li>
+<li>通过数组定义来引用类，不会触发类的初始化</li>
+<li>访问类的常量，不会初始化类</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/02/17/%E7%B1%BB%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96/" data-id="ckl91h1ns00043sva8xjffbmw" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-基于Linux 环境下的jdk ,tomcat,mysql的安装" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/02/17/%E5%9F%BA%E4%BA%8ELinux%20%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84jdk%20,tomcat,mysql%E7%9A%84%E5%AE%89%E8%A3%85/" class="article-date">
+  <time class="dt-published" datetime="2021-02-17T06:03:02.241Z" itemprop="datePublished">2021-02-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="基于Linux-环境下的jdk-tomcat-mysql的安装"><a href="#基于Linux-环境下的jdk-tomcat-mysql的安装" class="headerlink" title="基于Linux 环境下的jdk ,tomcat,mysql的安装"></a>基于Linux 环境下的jdk ,tomcat,mysql的安装</h1><h2 id="一-安装jdk"><a href="#一-安装jdk" class="headerlink" title="一.安装jdk"></a>一.安装jdk</h2><h2 id="第一步：解压缩jdk"><a href="#第一步：解压缩jdk" class="headerlink" title="第一步：解压缩jdk"></a>第一步：解压缩jdk</h2><p>首先将下载好的jdk存放到 <code>/usr/local</code>中<br>然后解压缩 <code>tar -zxvf jdk*</code><br>删除原压缩包文件<code>rm -f *gz</code></p>
+<h2 id="第二步：配置jdk环境变量"><a href="#第二步：配置jdk环境变量" class="headerlink" title="第二步：配置jdk环境变量"></a>第二步：配置jdk环境变量</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim &#x2F;etc&#x2F;profile</span><br></pre></td></tr></table></figure>
+<p>进入文本模式后，在文本最后加入,一定要注意copy配置文件放置的位置（我重装了两次）</p>
+<figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#java environment</span></span><br><span class="line"><span class="attr">export</span> <span class="string">JAVA_HOME=/root/usr/local/jdk1.8.0_212</span></span><br><span class="line"><span class="attr">export</span>    <span class="string">CLASSPATH=.:$&#123;JAVA_HOME&#125;/jre/lib/rt.jar:$&#123;JAVA_HOME&#125;/lib/dt.jar:$&#123;JAVA_HOME&#125;/lib/tools.jar</span></span><br><span class="line"><span class="attr">export</span> <span class="string">PATH=$PATH:$&#123;JAVA_HOME&#125;/bin</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p><img src="/2021/02/17/%E5%9F%BA%E4%BA%8ELinux%20%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84jdk%20,tomcat,mysql%E7%9A%84%E5%AE%89%E8%A3%85/note\image\QQ截图20190906232741.png"></p>
+<p>按esc <code>:wq</code>保存退出<br>使刚刚配置的文件生效</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source &#x2F;etc&#x2F;profile</span><br></pre></td></tr></table></figure>
+<p>输入`java -version 或者输入 java    只要下面没有出现error 或者· not found 之类的错误就配置成功了。</p>
+<p>如果没成功 建议重装系统</p>
+<p>也可以输入以下命令试一下:输入/bin/vi /etc/profile，试一下能不能把文件改回来就可以了。</p>
+<h1 id="二-配置Tomcat"><a href="#二-配置Tomcat" class="headerlink" title="二.配置Tomcat"></a>二.配置Tomcat</h1><p>1.首先将下载好的tomcat存放到 <code>/usr/local</code>中<br>然后解压缩 <code>tar -zxvf apa*</code><br>删除原压缩包文件<code>rm -f *gz</code><br>2.进入tomcat安装目录里</p>
+<p>cd /usr/local/apa*/bin</p>
+<p>输入 <code>./startup.sh</code><br>启动tomcat就行了</p>
+<p>关闭tomcat 输入</p>
+<p>./shutdown.sh</p>
+<h1 id="三、配置mysql"><a href="#三、配置mysql" class="headerlink" title="三、配置mysql"></a>三、配置mysql</h1><p>我是在线安装的mysql</p>
+<p>详情参考:<a target="_blank" rel="noopener" href="https://www.cnblogs.com/lwp6/p/10421717.html">https://www.cnblogs.com/lwp6/p/10421717.html</a></p>
+<ol>
+<li>下载Repo</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -i -c http:&#x2F;&#x2F;dev.mysql.com&#x2F;get&#x2F;mysql57-community-release-el7-10.noarch.rpm</span><br></pre></td></tr></table></figure>
+<p>2.安装repo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install mysql57-community-release-el7-10.noarch.rpm</span><br></pre></td></tr></table></figure>
+<p>3.开始安装MySQL服务器。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install mysql-community-server</span><br></pre></td></tr></table></figure>
+<p>4.启动mysql服务</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start  mysqld.service</span><br></pre></td></tr></table></figure>
+<p>5.查看mysql的状态</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl status mysqld.service</span><br></pre></td></tr></table></figure>
+<p>6.查看原生密码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep &quot;password&quot; &#x2F;var&#x2F;log&#x2F;mysqld.log</span><br></pre></td></tr></table></figure>
+<p><img src="/2021/02/17/%E5%9F%BA%E4%BA%8ELinux%20%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84jdk%20,tomcat,mysql%E7%9A%84%E5%AE%89%E8%A3%85/note\image\1567817302698.png" alt="1567817302698"></p>
+<h2 id="7-修改原生密码"><a href="#7-修改原生密码" class="headerlink" title="7.修改原生密码"></a>7.修改原生密码</h2><p>  7.1 本地登录 mysql -uroot -p</p>
+<p>   7.2 修改密码ALTER USER ‘root’@’localhost’ IDENTIFIED BY ‘new password</p>
+<p><strong>肯定是修改不成功的</strong> 应为密码安全级别太低。</p>
+<p>因为密码必须有字母数字特殊符组成。</p>
+<p>   7.3 设置允许使用简单密码</p>
+<p>set global validate_password_policy=0;</p>
+<p>set global validate_password_length=1;</p>
+<p>   7.4修改完成后再使用</p>
+<p>ALTER USER ‘root’@’localhost’ IDENTIFIED BY ‘123456’;</p>
+<h2 id="8-如果要远程使用"><a href="#8-如果要远程使用" class="headerlink" title="8.如果要远程使用"></a>8.如果要远程使用</h2><p><img src="/2021/02/17/%E5%9F%BA%E4%BA%8ELinux%20%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84jdk%20,tomcat,mysql%E7%9A%84%E5%AE%89%E8%A3%85/note\image\1567817619084.png" alt="1567817619084"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">GRANT ALL PRIVILEGES ON *.* TO &#39;root&#39;@&#39;%&#39; IDENTIFIED BY &#39;123456&#39; WITH GRANT OPTION;</span><br><span class="line">flush privileges;</span><br></pre></td></tr></table></figure>
+<p>到此 全部安装完成。</p>
+<p>现在尝试远程连接，应该还是连接不上，需要对防火墙进行设置</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld.service #停止firewall</span><br><span class="line">systemctl disable firewalld.service #禁止firewall开启</span><br></pre></td></tr></table></figure>
+<h2 id="Linux环境下安装MySQL数据库示例教程"><a href="#Linux环境下安装MySQL数据库示例教程" class="headerlink" title="Linux环境下安装MySQL数据库示例教程"></a>Linux环境下安装MySQL数据库示例教程</h2><p>原创 丶平凡世界 <a href="javascript:void(0);">SQL数据库开发</a> <em>5天前</em></p>
+<p>点击上方SQL数据库开发，关注获取SQL视频教程</p>
+<p>SQL专栏</p>
+<p><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzA3MTg4NjY4Mw==&mid=2457300844&idx=1&sn=134dd477109fcff6593012b85e5d7c80&scene=21#wechat_redirect">SQL数据库基础知识汇总</a></p>
+<p><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzA3MTg4NjY4Mw==&mid=2457299032&idx=2&sn=9fe9d17efff538b81d7c31de3be6d905&scene=21#wechat_redirect">SQL数据库高级知识汇总</a></p>
+<p>Linux环境对大多数SQL初学者还是比较陌生，今天给大家演示一下如何在Linux环境下安装MySQL数据库。</p>
+<p><strong>测试环境</strong></p>
+<p>CentOS 7.0</p>
+<p><strong>创建用户</strong></p>
+<p>我们进入到CentOS后，打开终端命令窗口，新建一个msql用户，并输入密码</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/icbViakEeV5qGOPfrya66gdPlfe6YPfyCCCZ6ARNTdC9xlbicVUB1vs7s32hYmu0ibBrbyCHqXF4TYPo9sO4Ar5JJA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="img"></p>
+<p>注意：这里提示新的密码必须不少于8个字符，只是警告而已，可以不用理会。</p>
+<p><strong>下载MySQL</strong></p>
+<p>我们去MySQL的官网下载我们需要的安装包，这里我们下载5.6.64版本的。</p>
+<p>地址：</p>
+<p><a target="_blank" rel="noopener" href="https://dev.mysql.com/downloads/mysql/5.6.html#downloads">https://dev.mysql.com/downloads/mysql/5.6.html#downloads</a></p>
+<p>因为我们的CentOS是64位的操作系统，我们选择64位的安装包。</p>
+<p>如下图：</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/icbViakEeV5qGOPfrya66gdPlfe6YPfyCCpicPmlick1xJ8YnIeTLicX8QhDX4BQDvR3gw6ficHnwZeib8vbgff80soSw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="img"></p>
+<p>然后将需要的文件下载到指定目录下面，这里因为我们刚新建了一个mysql的用户，在home目录下就有一个mysql子目录了，我们将安装包放到这里。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;home&#x2F;mysql &amp;&amp; wget https:&#x2F;&#x2F;cdn.mysql.com&#x2F;&#x2F;Downloads&#x2F;MySQL-5.6&#x2F;mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/icbViakEeV5qGOPfrya66gdPlfe6YPfyCCqBx03KtoDP4ibkueJfFrMls3kKfNYvF9uFVVF6FMib8RCUEIQWdjPJeg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="img"></p>
+<p><strong>解压MySQL安装包</strong></p>
+<p>我们将目录切换到msql目录下面，开始解压下载好的的安装包</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar vxzf mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz</span><br></pre></td></tr></table></figure>
+
+
+
+
+<p>重命名解压后的文件夹</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv mysql-5.6.46-linux-glibc2.12-x86_64 mysql-5.6.46</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h2 id="新建配置文件"><a href="#新建配置文件" class="headerlink" title="新建配置文件"></a><strong>新建配置文件</strong></h2><p>在mysql目录下面新建一个my.cnf文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi &#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;my.cnf</span><br></pre></td></tr></table></figure>
+
+
+<p>具体内容如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">[client]</span><br><span class="line">default-character-set&#x3D;utf8 #客户端连接编码</span><br><span class="line"></span><br><span class="line">[mysql]</span><br><span class="line">auto-rehash #客户端tab补全</span><br><span class="line">default-character-set&#x3D;utf8 #编码</span><br><span class="line"></span><br><span class="line">[mysqld]</span><br><span class="line">user&#x3D;mysql #运行账户</span><br><span class="line">port&#x3D;3306                     #定义端口</span><br><span class="line">log-bin&#x3D;mysql-bin             #开启二进制日志</span><br><span class="line">server-id&#x3D;1001                #定义服务ID</span><br><span class="line"></span><br><span class="line">binlog_format&#x3D;row          # binlog类型</span><br><span class="line">binlog_do_db&#x3D;MDA # 设置binlog数据库</span><br><span class="line"></span><br><span class="line">max_allowed_packet&#x3D;50M ###最大</span><br><span class="line">wait_timeout&#x3D;30             ###等待超时默认s</span><br><span class="line">interactive_timeout&#x3D;30      ###活动超时</span><br><span class="line"></span><br><span class="line">innodb_buffer_pool_size &#x3D; 128M</span><br><span class="line">join_buffer_size &#x3D; 128M</span><br><span class="line">sort_buffer_size &#x3D; 2M</span><br><span class="line">read_rnd_buffer_size &#x3D; 2M</span><br><span class="line"></span><br><span class="line">basedir&#x3D;&#x2F;home&#x2F;mysql&#x2F;mysql-5.5.61           #MYSQL根目录</span><br><span class="line">datadir&#x3D;&#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;data      #MYSQL数据存放目录</span><br><span class="line">socket&#x3D;&#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;3306_mysql.sock #套接字</span><br><span class="line"></span><br><span class="line">init_connect&#x3D;&#39;SET collation_connection &#x3D; utf8_unicode_ci&#39;</span><br><span class="line">init_connect&#x3D;&#39;SET NAMES utf8&#39;</span><br><span class="line">character-set-server&#x3D;utf8 #定义数据库默认字符 server\collation</span><br><span class="line">collation-server&#x3D;utf8_unicode_ci</span><br><span class="line">skip-character-set-client-handshake</span><br><span class="line"></span><br><span class="line">symbolic-links&#x3D;0</span><br><span class="line"></span><br><span class="line">sql_mode&#x3D;NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES</span><br><span class="line"></span><br><span class="line">lower_case_table_names &#x3D; 1             #对表的大小写不敏感</span><br><span class="line"></span><br><span class="line">[mysqld_safe]</span><br><span class="line">log-error&#x3D;&#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;logs&#x2F;err.log #错误日志</span><br><span class="line">pid-file&#x3D;&#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;mysqld.pid #pid,多协议通信 tcp&#x2F;sock</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a><strong>开始安装</strong></h2><h3 id="安装之前我们需要安装mysql需要的一些依赖文件"><a href="#安装之前我们需要安装mysql需要的一些依赖文件" class="headerlink" title="安装之前我们需要安装mysql需要的一些依赖文件"></a>安装之前我们需要安装mysql需要的一些依赖文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y libaio</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="初始化数据库"><a href="#初始化数据库" class="headerlink" title="初始化数据库"></a><strong>初始化数据库</strong></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p &#x2F;data&#x2F;mysql&#x2F;port-3306&#x2F;data</span><br><span class="line">cd &#x2F;home&#x2F;mysql&#x2F;mysql-5.6.46 &amp;&amp; scripts&#x2F;mysql_install_db --basedir&#x3D;&#x2F;home&#x2F;mysql&#x2F;mysql-5.6.46 --datadir&#x3D;&#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;data --defaults-file&#x3D;&#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;my.cnf</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/icbViakEeV5qGOPfrya66gdPlfe6YPfyCCiaiaL8q250fKyIB1ib04TZ8SAVlFBibNiciaibJRJ10vKEEZH0Vu99vzIibcGQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="img"></p>
+<p>注意：生产环境推荐采用这种方式</p>
+<p>/home/mysql/mysql-5.6.46/bin/mysql_secure_installation移除测试数据库和匿名用户。</p>
+<h3 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a><strong>启动服务器</strong></h3><p>启动前要修改一下mysql目录下的属性</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chown mysql:mysql &#x2F;home&#x2F;mysql&#x2F;*</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="创建日志目录"><a href="#创建日志目录" class="headerlink" title="创建日志目录"></a><strong>创建日志目录</strong></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p &#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;logs &amp;&amp; mkdir -p &#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;data &amp;&amp; touch &#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;logs&#x2F;err.log;</span><br><span class="line">&#x2F;home&#x2F;mysql&#x2F;mysql-5.6.46&#x2F;bin&#x2F;mysqld_safe --defaults-file&#x3D;&#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;my.cnf --user&#x3D;mysql &amp;</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/icbViakEeV5qGOPfrya66gdPlfe6YPfyCChcWibRJWqwmQtru3csyz2EITab57WPW6fuDbhWCOFbHNy00BicYrSb7w/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="img"><br><img src="https://mmbiz.qpic.cn/mmbiz_png/icbViakEeV5qGOPfrya66gdPlfe6YPfyCCZVuKoanFjpiarHDN41wPib31tIgAibGPPHMEok9XUxunajozIP7M1DWnQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="img"></p>
+<h3 id><a href="#" class="headerlink" title></a></h3><h3 id="修改管理员密码"><a href="#修改管理员密码" class="headerlink" title="修改管理员密码"></a><strong>修改管理员密码</strong></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;home&#x2F;mysql&#x2F;mysql-5.6.46&#x2F;bin&#x2F;mysqladmin -u root password &#39;sqlroad&#39; -S &#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;3306_mysql.sock -hlocalhost -P3306</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h3 id="开放外网连接权限"><a href="#开放外网连接权限" class="headerlink" title="开放外网连接权限"></a><strong>开放外网连接权限</strong></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;home&#x2F;mysql&#x2F;mysql-5.6.46&#x2F;bin&#x2F;mysql -S &#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;3306_mysql.sock -hlocalhost -P3306 -uroot -p&#39;sqlroad&#39;</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h4 id="执行脚本"><a href="#执行脚本" class="headerlink" title="执行脚本"></a><strong>执行脚本</strong></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">GRANT ALL PRIVILEGES ON *.* TO &#39;root&#39;@&#39;%&#39; IDENTIFIED BY &#39;sqlroad&#39; WITH GRANT OPTION;</span><br><span class="line">FLUSH PRIVILEGES;</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="-1"><a href="#-1" class="headerlink" title></a></h2><h3 id="连接"><a href="#连接" class="headerlink" title="连接"></a><strong>连接</strong></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;home&#x2F;mysql&#x2F;mysql-5.6.46&#x2F;bin&#x2F;mysql -S &#x2F;home&#x2F;mysql&#x2F;port-3306&#x2F;3306_mysql.sock -hlocalhost -P3306 -uroot -p&#39;sqlroad&#39;</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/icbViakEeV5qGOPfrya66gdPlfe6YPfyCCaqcXUOkVwaJaosUPnPwv4USYAtPM8NVQrJqSCDDjFwdrtjBpASkMkQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="img"></p>
+<h3 id="-2"><a href="#-2" class="headerlink" title></a></h3><h3 id="远程连接"><a href="#远程连接" class="headerlink" title="远程连接"></a><strong>远程连接</strong></h3><p>查看本机防火墙，如果运行，也需要开启3306端口，命令如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">systemctl status firewalld;</span><br><span class="line">firewall-cmd --permanent --zone&#x3D;public --add-port&#x3D;3306&#x2F;tcp;</span><br><span class="line">firewall-cmd --complete-reload;</span><br></pre></td></tr></table></figure>
+
+
+<p>备注：千万不要忽略本机防火墙。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/02/17/%E5%9F%BA%E4%BA%8ELinux%20%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84jdk%20,tomcat,mysql%E7%9A%84%E5%AE%89%E8%A3%85/" data-id="ckl91h1np00023svabgdrgogu" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-二、垃圾回收" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/02/17/%E4%BA%8C%E3%80%81%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/" class="article-date">
+  <time class="dt-published" datetime="2021-02-17T06:03:02.238Z" itemprop="datePublished">2021-02-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2021/02/17/%E4%BA%8C%E3%80%81%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/">垃圾回收</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>二、垃圾回收</p>
+<p> 首要任务：判定哪些对象是垃圾</p>
+<p>如何判定对象为垃圾对象</p>
+<h4 id="引用计数法："><a href="#引用计数法：" class="headerlink" title="引用计数法："></a>引用计数法：</h4><p>对象中添加引用计数器，当有地方引用这个对象的时候，引用计数器的值就+1,当引用失效的时候。计数器就-1.     引用为null,则失效。</p>
+<p><img src="/2021/02/17/%E4%BA%8C%E3%80%81%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/note\image\1572275929963.png" alt="1572275929963"></p>
+<p>一般不用这种这种方法。 无法实现下面的回收案例（循环引用）：</p>
+<p><img src="/2021/02/17/%E4%BA%8C%E3%80%81%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/note\image\1570455132834.png" alt="1570455132834"></p>
+<p>-verbose:gc 打印垃圾回收信息</p>
+<p>-xx:+PrintGCDetail 详细信息</p>
+<h4 id="可达性分析法"><a href="#可达性分析法" class="headerlink" title="可达性分析法"></a>可达性分析法</h4><p>通过GCRoot开始深度遍历，（称为引用链，如果对象不属于任何引用链）如果能找到就是就不回收。如果找不到就是垃圾。</p>
+<p>以下区域的对象都可以作为GCRoots的对象</p>
+<p>​      虚拟机栈</p>
+<p>​     方法区的类属性所引用的对象</p>
+<p>​     方法区中常量所引用的对象</p>
+<p>​     本地方法栈中引用的对象</p>
+<p>​        定义一个垃圾回收的根节点 </p>
+<p>​         执行效率 执行功能比较强大。</p>
+<p>如可回收</p>
+<p>   回收策略</p>
+<p>​       标记清除算法</p>
+<p>​       复制算法</p>
+<p>​                堆</p>
+<p>​                   新生代</p>
+<pre><code>                             Eden 伊甸园：只要被创建,就会存在这里，GC经常光顾
+</code></pre>
+<p>​                                   Survivor 存活区          GC偶尔光顾</p>
+<p>​                                    Tenured  Gen            少关注</p>
+<p>​           Eden 中被标记的对象 复制到—&gt;Survivor  没被标记的复制到—-》Tenured Gen             其他的被回收。</p>
+<p>​            超过：10%需要内存担保</p>
+<p>​                           </p>
+<p>​     标记整理算法（针对 回收效率不高，垃圾较少情况）</p>
+<p>​                先标记—》再整理—-》再清除</p>
+<p>​              老年代：  </p>
+<p>​      分代收集算法</p>
+<p>垃圾收集器</p>
+<p>客户端使用：Serial</p>
+<p>​                最基本，发展最悠久，单线程垃圾收集器。</p>
+<p><img src="/2021/02/17/%E4%BA%8C%E3%80%81%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/note\image\1570457789832.png" alt="1570457789832"></p>
+<p>​               在客户端（主要用于桌面应用）使用效率比较高，所用内存比较小。</p>
+<p>服务端使用：parnew   </p>
+<p><img src="/2021/02/17/%E4%BA%8C%E3%80%81%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/Users\wt\AppData\Roaming\Typora\typora-user-images\1570458251026.png" alt="1570458251026"></p>
+<p>Parllel          </p>
+<p>复制算法（新生代收集器）</p>
+<p>是多线程收集器</p>
+<p>为了达到可控制的吞吐量</p>
+<p>–XX:MaxGCPauseMills 垃圾收集器最大停顿时间</p>
+<p>–XX:GCTimeRatio 吞吐量大小</p>
+<p>​                （0，100）</p>
+<p>Cms（Concurrent Mark Sweep）</p>
+<p>​       并发标记清除</p>
+<p>​        性能低</p>
+<p>​         并发：一个人进行</p>
+<p>​          并行：多个人同时干</p>
+<p>  不能跟Parllel公用      回收老年代内存</p>
+<p>工作过程</p>
+<p>​         初始标记（标记可被回收算法（可达性分析法））</p>
+<p>​          并发标记</p>
+<p>​            重新标记（对并发标记进行补充）</p>
+<p>​            并发清理</p>
+<p>   优点：</p>
+<p>​             并发收集</p>
+<p>​             低停顿</p>
+<p>​     缺点：</p>
+<p>​                占用大量内存资源</p>
+<p>​                无法处理浮动垃圾</p>
+<p>​                出现Concurrent Model Failure</p>
+<p>G1收集器（面向服务端用户）</p>
+<p>历史：老大2004年</p>
+<p>优势     </p>
+<p>​         并行 和并发</p>
+<p>​         分代收集：堆内存 分成一个个的内存区域（不再分新生代和老年代）</p>
+<p>​         多核使用</p>
+<p>步骤     </p>
+<p>与CMS比较        </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/02/17/%E4%BA%8C%E3%80%81%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/" data-id="ckl91h1nm00013sva9ntdfgdz" data-title="垃圾回收" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/02/17/hello-world/" class="article-date">
+  <time class="dt-published" datetime="2021-02-17T05:54:53.044Z" itemprop="datePublished">2021-02-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2021/02/17/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/02/17/hello-world/" data-id="ckl91h1nd00003svabl911pd5" data-title="Hello World" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">February 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/02/17/%E6%96%B0%E5%BB%BA%E4%B8%80%E7%AF%87-blog/">新建一篇 blog/</a>
+          </li>
+        
+          <li>
+            <a href="/2021/02/17/%E7%B1%BB%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/02/17/%E5%9F%BA%E4%BA%8ELinux%20%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84jdk%20,tomcat,mysql%E7%9A%84%E5%AE%89%E8%A3%85/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/02/17/%E4%BA%8C%E3%80%81%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/">垃圾回收</a>
+          </li>
+        
+          <li>
+            <a href="/2021/02/17/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
